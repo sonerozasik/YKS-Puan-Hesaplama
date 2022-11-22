@@ -12,99 +12,497 @@
 <body>
     <div class="container-fluid bg-primary d-flex text-center">
         <div class="col-6 bg-primary p-2">
-            <div class="card p-2">
-                <h1 class="fw-light fs-2"><b>AYT</b> Puanı Hesaplama</h1>
-                <div class="d-flex flex-row">
-                    <div class="col-5"></div>
+            <div class="card p-2 text-start">
+                <h1 class="fw-light fs-2 text-center"><b>AYT</b> Puanı Hesaplama</h1>
+                <div class="d-flex flex-row justify-content-around text-center">
+                    <div class="col-4"></div>
                     <div class="col-2"><i class="bi bi-check2 fs-2"></i></div>
                     <div class="col-2"><i class="bi bi-x-lg fs-3"></i></div>
                     <div class="col-2"><span class="fs-3 fw-light">Net</span></div>
                 </div>
-                <h2 class="text-start fs-6 fw-bold text-secondary">Türk dili ve Edebiyatı ve Sosyal Bilimler-1 Testi</h2>
-                <hr>
-                <div class="d-flex flex-row">
-                    <div class="col-5">
-                        <h3 class="fs-6">Türk dili ve edebiyatı</h3>
-                        <span class="fs-6">24 Soru</span>
+                <h2 class="text-start fs-6 fw-bold text-secondary mb-3">Türk dili ve Edebiyatı ve Sosyal Bilimler-1 Testi</h2>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Türk Dili ve Edebiyatı</h3>
+                        <span class="fs-7 text-primary">24 Soru</span>
                     </div>
-                    <div class="col-2">tik</div>
-                    <div class="col-2">çar</div>
-                    <div class="col-2">net</div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                            <input class="col-12 input-box border border-2 rounded-3 text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3 text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
                 </div>
                 <hr>
-                <div class="d-flex flex-row">
-                    <div class="col-5">
-                        <h3 class="fs-6">Tarih-1</h3>
-                        <span class="fs-6">10 Soru</span>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Tarih-1</h3>
+                        <span class="fs-7 text-primary">10 Soru</span>
                     </div>
-                    <div class="col-2">tik</div>
-                    <div class="col-2">çar</div>
-                    <div class="col-2">net</div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3 text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
                 </div>
                 <hr>
-                <div class="d-flex flex-row">
-                    <div class="col-5">
-                        <h3 class="fs-6">Coğrafya-1</h3>
-                        <span class="fs-6">6 Soru</span>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Coğrafya-1</h3>
+                        <span class="fs-7 text-primary">6 Soru</span>
                     </div>
-                    <div class="col-2">tik</div>
-                    <div class="col-2">çar</div>
-                    <div class="col-2">net</div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                            <input class="col-12 input-box border border-2 rounded-3 text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3 text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
                 </div>
                 <hr>
                 <br>
-                <h2 class="text-start fs-6">Sosyal Bilimler-2 Testi</h2>
-                <hr>
-                <div class="d-flex flex-row">
-                    <div class="col-5">
-                        <h3 class="fs-6">Türk dili ve edebiyatı</h3>
-                        <span class="fs-6">24 Soru</span>
+                <h2 class="text-start fs-6 fw-bold text-secondary mb-3">Sosyal Bilimler-2 Testi</h2>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Tarih-2</h3>
+                        <span class="fs-7 text-primary">11 Soru</span>
                     </div>
-                    <div class="col-2">tik</div>
-                    <div class="col-2">çar</div>
-                    <div class="col-2">net</div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                            <input class="col-12 input-box border border-2 rounded-3 text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3 text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
                 </div>
                 <hr>
-                <div class="d-flex flex-row">
-                    <div class="col-5">
-                        <h3 class="fs-6">Tarih-2</h3>
-                        <span class="fs-6">10 Soru</span>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Coğrafya-2</h3>
+                        <span class="fs-7 text-primary">11 Soru</span>
                     </div>
-                    <div class="col-2">tik</div>
-                    <div class="col-2">çar</div>
-                    <div class="col-2">net</div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                            <input class="col-12 input-box border border-2 rounded-3 text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
                 </div>
                 <hr>
-                <div class="d-flex flex-row">
-                    <div class="col-5">
-                        <h3 class="fs-6">Coğrafya-2</h3>
-                        <span class="fs-6">6 Soru</span>
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Felsefe Grubu</h3>
+                        <span class="fs-7 text-primary">11 Soru</span>
                     </div>
-                    <div class="col-2">tik</div>
-                    <div class="col-2">çar</div>
-                    <div class="col-2">net</div>
-                </div>
-                <div class="d-flex flex-row">
-                    <div class="col-5">
-                        <h3 class="fs-6">Felsefe Grubu</h3>
-                        <span class="fs-6">12 Soru</span>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                        <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
                     </div>
-                    <div class="col-2">tik</div>
-                    <div class="col-2">çar</div>
-                    <div class="col-2">net</div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
                 </div>
+                <hr>
+
+
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Din Kültürü ve Ahlak Bilgisi / Ek Felsefe Grubu</h3>
+                        <span class="fs-7 text-primary">6 Soru</span>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
+                </div>
+
+                <hr>
+
+                <br>
+
+                <h2 class="text-start fs-6 fw-bold text-secondary mb-3">Matematik Testi</h2>
+                
+
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Matematik</h3>
+                        <span class="fs-7 text-primary">40 Soru</span>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
+                </div>
+
+
+                <hr>
+                <br>
+
+
+                <h2 class="text-start fs-6 fw-bold text-secondary mb-3">Fen Bilimleri Testi</h2>
+                
+
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Fizik</h3>
+                        <span class="fs-7 text-primary">14 Soru</span>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Kimya</h3>
+                        <span class="fs-7 text-primary">13 Soru</span>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="d-flex flex-row justify-content-around">
+                    <div class="col-4">
+                        <h3 class="fs-6 mb-0">Biyoloji</h3>
+                        <span class="fs-7 text-primary">13 Soru</span>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative ">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-12 position-relative">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                            <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                    </div>
+                </div>
+
+                <hr>
+
             </div>
         </div>
         <div class="col-6 bg-primary p-2">
-            <div class="card">
-                <h1>TYT Puanı Hesaplama</h1>
-            </div>
-        </div>
+                <div class="card p-2 text-start mb-3">
+                    <h1 class="fw-light fs-2 text-center"><b>TYT</b> Puanı Hesaplama</h1>
+                    <div class="d-flex flex-row justify-content-around text-center">
+                        <div class="col-4"></div>
+                        <div class="col-2"><i class="bi bi-check2 fs-2"></i></div>
+                        <div class="col-2"><i class="bi bi-x-lg fs-3"></i></div>
+                        <div class="col-2"><span class="fs-3 fw-light">Net</span></div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-around">
+                        <div class="col-4">
+                            <h3 class="fs-6 mb-0">Türkçe</h3>
+                            <span class="fs-7 text-primary">40 Soru</span>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12 position-relative ">
+                                <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                                <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12 position-relative">
+                                <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                                <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex flex-row justify-content-around">
+                        <div class="col-4">
+                            <h3 class="fs-6 mb-0">Sosyal Bilimler</h3>
+                            <span class="fs-7 text-primary">20 Soru</span>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12 position-relative ">
+                                <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                                <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12 position-relative">
+                                <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                                <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex flex-row justify-content-around">
+                        <div class="col-4">
+                            <h3 class="fs-6 mb-0">Temel Matematik</h3>
+                            <span class="fs-7 text-primary">40 Soru</span>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12 position-relative ">
+                                <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                                <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12 position-relative">
+                                <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                                <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex flex-row justify-content-around">
+                        <div class="col-4">
+                            <h3 class="fs-6 mb-0">Fen Bilimleri</h3>
+                            <span class="fs-7 text-primary">20 Soru</span>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12 position-relative ">
+                                <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                                <i class="bi bi-check2 fs-5 text-success position-absolute little-icon-position"></i>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12 position-relative">
+                                <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="-">
+                                <i class="bi bi-x-lg fs-6 text-danger position-absolute little-icon-position-x"></i>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <input class="col-12 input-box border border-0 rounded-3 text-center output-box" type="number" placeholder="-" readonly>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                </div>
+                <div class="card p-2 text-start mb-3">
+                    <h1 class="fw-light fs-2 text-center"><b>Ortaöğretim</b> Başarı Puanı</h1>
+                    <div class="d-flex flex-row justify-content-around">
+                        <div class="col-4">
+                            <h3 class="fs-6 mb-0">Diploma Notu</h3>
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="50" >
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="d-flex flex-row justify-content-around">
+                        <div class="col-4">
+                            <h3 class="fs-6 mb-0 ">OBP</h3>
+                        </div>
+                        <div class="col-2"></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">
+                            <input class="col-12 input-box border border-2 rounded-3  text-center" type="number" placeholder="250" >
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="d-flex flex-row justify-content-around align-items-center ">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <span class="col-11 fw-bold text-secondary">Geçen Sene Bir Bölüme Yerleştim </span>
+                    </div>
+
+                </div>
+
+                <div class="card p-2 text-start ">
+                    <h1 class="fw-light fs-2 text-center"><b>Sonuçlar</b></h1>
+                    <div class="row justify-content-around">
+                        <h2 class="col-3 fs-4">Puan Türü</h2>
+                        <h2 class="col-3 fs-4">Ham Puan</h2>
+                        <h2 class="col-5 fs-4">Yerleştirme Puanı</h2>
+                    </div>
+                    <hr class="thick-hr">
+                    <div class="row justify-content-around">
+                        <h2 class="col-3 fs-4">TYT</h2>
+                        <input class="col-3 input-box border border-0 rounded-3 text-start output-box" type="number" placeholder="-" readonly>
+                        <input class="col-4 input-box border border-0 rounded-3 text-start output-box" type="number" placeholder="-" readonly>
+                    </div>
+                    <hr>
+                    <div class="row justify-content-around">
+                        <h2 class="col-3 fs-4">SAY</h2>
+                        <input class="col-3 input-box border border-0 rounded-3 text-start output-box" type="number" placeholder="-" readonly>
+                        <input class="col-4 input-box border border-0 rounded-3 text-start output-box" type="number" placeholder="-" readonly>
+                    </div>
+                    <hr>
+                    <div class="row justify-content-around">
+                        <h2 class="col-3 fs-4">EA</h2>
+                        <input class="col-3 input-box border border-0 rounded-3 text-start output-box" type="number" placeholder="-" readonly>
+                        <input class="col-4 input-box border border-0 rounded-3 text-start output-box" type="number" placeholder="-" readonly>
+                    </div>
+                    <hr>
+                    <div class="row justify-content-around">
+                        <h2 class="col-3 fs-4">SÖZ</h2>
+                        <input class="col-3 input-box border border-0 rounded-3 text-start output-box" type="number" placeholder="-" readonly>
+                        <input class="col-4 input-box border border-0 rounded-3 text-start output-box" type="number" placeholder="-" readonly>
+                    </div>
+                </div>
     </div>
 </body>
 </html>
 
 
 <style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    hr{
+        margin: 1%;
+    }
+    .thick-hr{
+        border: none;
+        height: 2px;
+        background-color: gray;
+    }
+    .fs-7{
+        font-size: 12px;
+    }
 
+    .input-box{
+        box-shadow: 0px 2px lightgray;
+        font-size: xx-large;
+        height: 40px;
+    }
+
+    .little-icon-position{
+        top: 35%;
+        right: 5%;
+    }
+
+    .little-icon-position-x{
+        bottom : 0%;
+        right: 5%;
+    }
+    .output-box{
+        box-shadow: none;
+    }
+
+    .output-box:focus{
+        outline: none;
+    }
+    #checkbox{
+        height: 15px;
+    }
+    
 </style>
